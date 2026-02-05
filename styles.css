@@ -1,0 +1,37 @@
+body, h1, p, img {
+margin: 0;
+padding: 0;
+font-family: 'Libre Baskerville', serif;
+}
+
+/* Page background */
+body {
+background-color: black;
+color: white;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+/* Center container (teacher's hint) */
+.center {
+width: 50%;
+margin-left: 25%;
+}
+
+/* Make title uppercase */
+h1 {
+font-size: 1.5rem;
+margin-bottom: 15px;
+text-transform: uppercase;
+}
+
+/* Style image */
+img {
+width: 100%;
+border: 5px solid white;
+height: auto;
+margin-top: 15px;
+}
